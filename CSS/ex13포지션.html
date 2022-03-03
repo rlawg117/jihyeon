@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 150px;
+            height: 150px;
+        }
+        #static{
+            background-color: red;
+            /* psition : static
+            - position 속성의 기본값 (정적인) 
+            - 위치속성이 비활성화
+            - 순수하게 위치를 움직일 수 없다.
+            */
+
+           top: 20px;
+            left: 20px;
+        }
+        #relative{
+            background-color: blue;
+            /* position : relative 
+            - 위치속성 활성화
+            - 기준 : 본인이 원래 있던 위치
+            */
+            position: relative;
+            top: 50px;
+            left: 20px;
+
+        }
+        #absolute{
+            background-color: green;
+            /* position : absolute 
+            - 위치속성 활성화
+            - 기준 : position속성이 static이 아닌 부모
+                만약에 부모가 없거나, 모든 부모가 전부 static인 경우
+                최상위인 body태그를 기준으로 한다.
+            */
+
+            position:absolute;
+            top: 20px;
+            left: 20px;
+
+        }
+        #parent{
+            position:absolute;
+        }
+        #fixed{
+            background-color: gray;
+            /* position : fixed
+            - 위치속성 활성화
+            - 기준 : 무조건 최상위태그 기준(body태그)
+            - 스크롤 무시, 무조건 그 자리에 고정
+             */
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    body태그
+    <div id="parent">
+        부모!
+        <!-- div#*4 -->
+        <div id="static"></div>
+        <div id="relative"></div>
+        <div id="absolute"></div>
+
+        <!-- div*100 -->
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <div id="fixed"></div>
+    </div>
+</body>
+</html>

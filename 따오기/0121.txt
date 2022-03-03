@@ -1,0 +1,28 @@
+width 500px 
+margin 20px 
+border 20px 
+
+content-box
+border- box
+
+총 합 580px -> content-box 
+content = 500 + margin,border 
+
+총 합 500px, 컨텐츠 420px
+->border-box 
+content + border + padding = 500
+content = 420px
+
+BoxModel 
+- 내용 Content 
+- 테두리 Border 
+   > border-radius
+- 안쪽여백 Padding
+- 바깥쪽여백 Margin 
+
+Position 
+   위치속성   기준
+- static   X   -
+- relative   O   내가 원래있던위치
+- absolute O   static이 아닌 부모 (body)
+- fixed   O   body

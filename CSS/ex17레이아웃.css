@@ -1,0 +1,32 @@
+/* 스타일태그 
+=> 적지 않고 안에 순수 css내용만 작성한다 */
+.layout{
+    width: 500px;
+    height: 500px;
+}
+.header{
+    height: 10%;
+    background-color: #ea4335;
+}
+.nav{
+    height: 10%;
+    background-color:#ff5e00;
+}
+.side{
+    width: 30%;
+    height: 60%;
+    float: left;
+    background-color: #4285f4;
+}
+.section1{
+    height: 30%;
+    background-color: #34a853;
+}
+.section2{
+    height: 30%;
+    background-color: #fbbc05;
+}
+.footer{
+    height: 20%;
+    background-color: #8a8d92;
+}

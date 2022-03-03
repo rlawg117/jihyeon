@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- form 태그 입력 양식틀을 만들어주는 태그 -->
+    <form action="데이터를 보낼 주소">
+        <h5>일반텍스트를 작성하는 공간</h5>
+        <!-- input태그의 데이터는 value속성에 저장★ -->
+        <!-- name 속성은 데이터 구분을 위한 속성이다.★ -->
+        <input type="text" name="성" placeholder="성" maxlength="10">
+        <input type="text" name="이름" placeholder="이름">
+
+        <h5>비밀번호를 작성하는 공간</h5>
+        <input type ="password">
+
+        <h5>마우스클릭을 통해 데이터를 선택하는 태그</h5>
+        <select>
+            <option>메일선택</option>
+            <option name = "optionNaver" value="네이버">네이버</option>
+            <option name = "optionDaum" value="다음">다음</option>
+        </select>
+
+        <h5>체크박스와 라디오버튼을 통해서 선택하는 태그</h5>
+        <!-- checkbox 박스를 클릭해서 데이터를 전송(복수로 선택가능, name과 value로 구분) -->
+        축구 <input type="checkbox" name="hobby"> 농구 <input type="checkbox" name="hobby">
+        <br>
+        <!-- radio 라디오버튼을 클릭해서 데이터를 전송(한가지만 선택할 수 있다.) -->
+        남자 <input type="radio" name="gender" value="men"> 여자 <input type="radio" name="gender" value="women">
+        
+        <h5>다양한 input태그</h5>
+        <!-- 파일을 업로드 할때 사용 input-->
+        <input type="file">
+        <br>
+        <!-- 색깔을 선택해서 입력하는 input-->
+        <input type="color">
+        <br>
+        <!-- 숫자 카운트 통해서 입력하는 input-->
+        <input type="number">
+        <br>
+        <!-- 막대바를 움직여서 입력하는 input-->
+        <input type="range">
+        <br>
+        <!-- 날짜, 시간을 선택하는 input-->
+        <input type="date"> <input type="datetime-local">
+
+        <!-- 데이터를 form의 action 경로에 보낼때 사용되는 input -->
+       <br>
+        보내기 : <input type="submit">
+
+        <!-- 초기화  -->
+        <br>
+        초기화 : <input type="reset">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,13 @@
+Box Model 
+- 내용 Content 
+- 안쪽여백 Padding 
+- 경계선 Border 
+   >둥글게 만들어 줌 border-radius 
+- 바깥여백 Margin 
+
+위치속성 Position 
+   위치속성   기준
+- static   X   -
+- relative   O   내가 원래있던 위치
+- absolute O   static이 아닌 부모 (body태그) 
+- fixed   O   body태그

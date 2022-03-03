@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>구독탭을 눌렀을 때</title>
+    <style>
+        .all_tab{
+            display: flex;
+            justify-content: space-around;
+            height: 5vh;
+        }
+        .click_tab{
+            background-color: lightblue;
+            width: 25vw;
+        }
+        .subscription{
+            display: flex;
+            justify-content: space-between;
+            height: 25vh;
+        }
+        .channel_view{
+            width: 25%;
+            background-color: lightskyblue;
+        }
+        .channel_photo{
+            height: 70%;
+            background-color: lightgray;
+        }
+        .channel_new_recipe{
+            width: 75%;
+            background-color: lightslategray;
+        }
+        .food_photo{
+            width: 30%;
+            height: 100%;
+            float: left;
+            background-color: lightslategrey;
+        }
+        .food_title,.food_ingredients{
+            height: 50%;
+            background-color: lightskyblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <section class="all_tab">
+            <nav class="click_tab">구독</nav>
+            <nav class="click_tab">스크랩</nav>
+            <nav class="click_tab">나의레시피</nav>
+            <nav class="click_tab">수정레시피</nav>
+        </section>
+        <br>
+        <main class="subscription">
+            <div class="channel_view">
+                <div class="channel_photo">채널 사진</div>
+                <div class="channel_name">채널 이름</div>
+            </div>
+            <div class="channel_new_recipe">
+                <div class="food_photo">사진</div>
+                <div class="food_title">제목</div>
+                <div class="food_ingredients">식재료</div>
+            </div>
+        </main>
+        <br>
+        <main class="subscription">
+            <div class="channel_view">
+                <div class="channel_photo">채널 사진</div>
+                <div class="channel_name">채널 이름</div>
+            </div>
+            <div class="channel_new_recipe">
+                <div class="food_photo">사진</div>
+                <div class="food_title">제목</div>
+                <div class="food_ingredients">식재료</div>
+            </div>
+        </main>
+        <br>
+        <main class="subscription">
+            <div class="channel_view">
+                <div class="channel_photo">채널 사진</div>
+                <div class="channel_name">채널 이름</div>
+            </div>
+            <div class="channel_new_recipe">
+                <div class="food_photo">사진</div>
+                <div class="food_title">제목</div>
+                <div class="food_ingredients">식재료</div>
+            </div>
+        </main>
+        <br>
+        <div class="more_view">더보기</div>
+    </div>
+</body>
+</html>

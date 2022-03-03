@@ -1,0 +1,85 @@
+[시험]
+이론 10문제 
+실습 3문제 ->예제
+시험시간 2시간 
+오픈북 & 오픈코드 
+오픈카톡X 오픈짝꿍X 
+
+이론문제 -> '인공지능9회차_선영표' 메모장에다가 제출 
+실습문제 ->'인공지능9회차_선영표' 폴더 안에다가 코드를 작성
+
+메모장, 실습 폴더 압축해서 -> '인공지능9회차_선영표'.zip
+
+[HTML]
+1. HTML이란? 
+- Hyper Text
+- MarkUp 언어 
+
+2. HTML의 구성 요소 
+-시작태그 
+- 끝태그 
+- 내용 Content 
+1+2+3 = 요소 Element 
+
+3. 태그의 종류 
+- Head / Body 
+- 제목 태그 h 
+- 본문태그 p, span 
+- 줄바꿈 br
+- 리스트 
+> 리스트 선언! (ul, ol) 
+> 실질적 데이터! (li) 
+- 이미지 <img src★  = "">
+- a태그 <a href="">
+- 테이블태그 
+> 테이블 선언! <table></table>
+> 몇줄? <tr></tr>
+> 몇칸?
+   >> header부분 th 
+   >> data td 태그 
+
+- Form 태그 
+> action 어디로? 
+> method  어떤방식으로?
+
+- input 태그 (type= >> text, password, submit, reset
+         checkbox, radio) 
+
+
+[CSS]
+
+- CSS 기본 구조 
+선택자 { 
+   선언;}
+
+- 선택자 종류 
+>전체선택자   *   0
+>타입선택자   이름   1
+>클래스선택자   .   10
+>아이디선택자   #   100
+
+
+- 계층선택자 
+> 자식선택자   >
+> 자손선택자   띄어쓰기
+> 근접후행선택자   +
+> 후행선택자   ~
+
+- 공간분할태그 
+> 큰 영역 : div  
+> 중간 문단 영역 : p
+> 세부적인 문장 영역 : span 
+
+- display
+> block
+> inline 
+> none 
+
+- Box Model 
+> 내용 Content
+> 안쪽여백 Padding
+> 테두리 Border 
+> 바깥여백 Margin 
+
+!important
+인라인 > 내부 > 외부 
