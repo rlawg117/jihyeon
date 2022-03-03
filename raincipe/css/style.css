@@ -1,0 +1,232 @@
+.title_searching_head{
+
+    border: 1px solid black;
+    height: 30vh;
+}
+#title{
+
+    border: 1px solid black;
+    height: 18vh;
+}
+#search{
+
+    border: 1px solid black;
+    height: 10vh;
+}
+.my_page{
+    border: 1px solid black;
+    height: 20vh;
+}
+.title_img_collection{
+    border: 1px solid black;
+    display: flex;
+    justify-content:space-around;
+    height: 80%;
+}
+.food_title_img{
+    border: 1px solid black;
+    width: 20%;
+    height: 100%;
+    flex-grow: 1;
+    flex-shrink: 1; 
+}
+.more{
+    border: 1px solid black;
+    align-self:flex-end;
+}
+.title_area{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    height:30%;
+}
+.searching_head{
+    border: 1px solid black;
+    height: 15vh;
+  
+}
+.food_preview{
+    border: 1px solid black;
+    height: 23vh;
+}
+.food_photo{
+    border: 1px solid black;
+    background-color: lightblue;
+    width: 20vw;
+    height: 20vh;
+    float: left;
+  
+}
+.food_title,.food_ingredients{
+    border: 1px solid black;
+    height: 10vh;
+
+}
+.recipe_view_head{
+    border: 1px solid black;
+    height: 5vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.close{
+    border: 1px solid black;
+    width:10%;
+    height: 100%;
+}
+main{
+    border: 1px solid black;
+    height: 100vh;
+}
+.recipe_view{
+    border: 1px solid black;
+    height: 40%;
+}
+.alarm_view{
+    border: 1px solid black;
+    height: 40%;
+}
+
+.join_content{
+    border: 1px solid black;
+
+    width: 90vw;
+    height: 100vh;
+}
+.join_row,.row_group{
+    border: 1px solid black;
+    height: 13%;
+}
+.btn_area{
+    border: 1px solid black;
+    height: 5%;
+}
+.ps_box_id{
+    border: 1px solid black;
+    display: flex;
+}
+#id{
+    border: 1px solid black;
+    flex-basis: 70%;
+}
+#check_id{
+    border: 1px solid black;
+    align-self: flex-end;
+}
+.my_page_head{
+    border: 1px solid black;
+    height: 150px;
+    display: flex;
+}
+.my_profile{
+    border: 1px solid black;
+    width: 20%;
+}
+.my_profile_img{
+    border: 1px solid black;
+    height: 70%;
+}
+.my_nick{
+    border: 1px solid black;
+    width: 60%;
+}
+#my_nick_name{
+    border: 1px solid black;
+    height: 30%;
+}
+.my_recipe_create{
+    border: 1px solid black;
+    width: 20%;
+}
+#food_photo{
+    border: 1px solid black;
+    height: 40vh;
+}
+.content_full{
+    border: 1px solid black;
+    height: 15vh;
+}
+.comments,.content{
+    border: 1px solid black;
+    height : 50vh;
+}
+#content_like,#content_bookmark{
+    border: 1px solid black;
+    float: right;
+}
+.recipe_create_page{
+    border: 1px solid black;
+    width: 95vw;
+    height: 97vh;
+}
+
+.main_create{
+    border: 1px solid black;
+    height: 82vh;
+}
+#add_photo{
+    border: 1px solid black;
+    height: 5vh;
+}
+.ingredient{
+    border: 1px solid black;
+    height: 20vh;
+}
+.original_recipe{
+    border: 1px solid black;
+    height: 50vh;
+}
+.end{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.cancellation,.finish{
+    border: 1px solid black;
+    width: 5vh;
+    height: 5vh;
+}
+.all_tab{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    height: 5vh;
+}
+.click_tab{
+    border: 1px solid black;
+    width: 25vw;
+}
+.subscription{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+}
+.channel_view{
+    border: 1px solid black;
+    width: 25%;
+}
+.channel_photo{
+    border: 1px solid black;
+    height: 70%;
+}
+.channel_new_recipe{
+    border: 1px solid black;
+    width: 75%;
+}
+.food_photo{
+    border: 1px solid black;
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: lightblue;
+}
+.food_title,.food_ingredients{
+    border: 1px solid black;
+    height: 50%;
+}   
+.more_view{
+    border: 1px solid black;
+    display: flex;
+    justify-items: center;
+}
